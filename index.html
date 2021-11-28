@@ -1,488 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cosmo</title>
+  <title>Safari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
+  
+
   <header class="header">
     <div class="container">
+
       <div class="header__inner">
+
         <div class="header__top">
+          <a  class="logo" href="#">
+            <img class="logo_img" src="images/logo.svg" alt="">
+          </a>
+          <div class="header__phone">
+            <span>Заказ туров и бронирование:</span>
+            <a  class="header__phone-number" href="tel:80508543543">тел. 8-050-8-543-543</a>
+          </div>
           <nav class="menu">
-            <button class="menu-btn">
-              <span></span>
+            <button class="menu__btn">
+              <span class="row"></span>
             </button>
             <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">О НАС</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">СТОИМОСТЬ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">ДОП.УСЛУГИ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">ГАРАНТИИ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">НОВОСТИ</a></li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Бронирование</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Экскурсии</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Туры</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Об Африке</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">О нас</a>
+              </li>
             </ul>
           </nav>
-          <a  class="phone" href="tel:080000000000">0 800 000 000 00</a>
-          <button class="login">
-            <img class="login__img" src="images/login.png" alt="login img">
-          </button>
         </div>
 
+        <h1 class="header__title">
+          Сафари по Африке
+        </h1>
         <div class="header__content">
-          <h1 class="header__title">
-            космический
-            <span>туризм</span>
-          </h1>
-          <div class="header__text">
-            <p>Будущее уже наступило!</p>
-            <p>Осуществи мечту детства!</p>
-          </div>
-          <button class="header__btn">
-            Хочу быть космонавтом!
-          </button>
+          <p class="header__descr">
+            Туры по самомым экзотическим местам
+            Поехали с нами за новыми впечатлениями!
+          </p>
+          <a  class="header__btn" href="#">Оставить заявку</a>
+          <div class="header__arrow">
+          <a  class="header__arrow-link" href="#">
+            <img class="header__arrow-img" src="images/arrow.svg" alt="">
+          </a>
+        </div>
         </div>
 
-        <div class="header__description">
-          <p class="header__description-text">В 2021 году наступила новая эра в освоении космоса - эра космического туризма. Частные компании получили доступ к космическому пространству. </p>
-          <p class="header__description-text">Между ними обострилась конкуренция, а цена билета на полеты в космическое пространство снизилась в сто раз.</p>
-        </div>
       </div>
+
     </div>
   </header>
-   <main class="main">
-    <section class="about">
-      <div class="container">
-        <h2 class="title">
-          О нас
-        </h2>
-        <div class="about__item">
-          <img src="images/branson.jpg" alt="" class="about__img">
-          <div class="about__content">
-            <h3 class="about__content-title">
-              Virgin Galactic
-            </h3>
-            <h5 class="about__content-subtitle">
-              суборбитальный полет
-            </h5>
-            <div class="about__content-text">
-              <p>
-                Компания Virgin Galactic 11 июля 2021 осуществила первый "туристический" суборбитальный полет со своим основателем, британским миллиардером Ричардом Брэнсоном на борту.
-              </p>
-              <p>
-                Корабль "Unity 22" стартовал с космического порта "Америка" в штате Нью-Мексико с помощью самолета-носителя VMS Eve. Позже он отсоединился от самолета-носителя.
-              </p>
-              <p>
-                Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. 
-              </p>
-            </div>
-            <table class="about__table">
-              <tr class="about__table-tr">
-                <td class="about__table-td">время в пути</td>
-                <td class="about__table-td">расстояние</td>
-                <td class="about__table-td">в невесомости</td>
-                <td class="about__table-td">стоимость</td>
-                <td class="about__table-td">вернешься?</td>
-              </tr>
-              <tr class="about__table-tr">
-                <td aria-label="время в пути" class="about__table-td">
-                  1
-                  <span>час</span>
-                </td>
-                <td aria-label="расстояние" class="about__table-td">
-                  80
-                  <span>км</span>
-                </td>
-                <td aria-label="в невесомости" class="about__table-td">
-                  4-5
-                  <span>мин</span>
-                </td>
-                <td aria-label="стоимость" class="about__table-td">
-                  250
-                  <span>тыс.дол</span>
-                </td>
-                <td aria-label="вернешься?" class="about__table-td">
-                  99
-                  <span>%</span>
-                </td>
-              </tr>
-            </table>
-            <button class="button">
-              ЗАБРОНИРОВАТЬ ПОЛЕТ
-            </button>
-          </div>
-        </div>
-
-        <div class="about__item">
-          <img src="images/bezos.jpg" alt="" class="about__img">
-          <div class="about__content">
-            <h3 class="about__content-title">
-              Blue Origin
-            </h3>
-            <h5 class="about__content-subtitle">
-              суборбитальный полет
-            </h5>
-            <div class="about__content-text">
-              <p>
-                Суборбитальные ракета New Shepard компании Blue Origin 20 июля 2021года впервые в истории компании вывела на космическую высоту капсулу с людьми, с самым богатым человеком мира Джеффом  Безосом на борту.
-              </p>
-              <p>
-                New Shepard высотой 18 м и шириной 4 м - многоразовый космический аппарат. Бустерная установка поднимает герметичное пассажирское судно на высоту около 76 км. Импульс преподносит капсулу вверх в космос. 
-              </p>
-              <p>
-                После этого она опускается на землю под тремя парашютами. Ракета-носитель тоже возвращается домой.
-              </p>
-            </div>
-            <table class="about__table">
-              <caption class="about__table-caption">* стоимость 200-250 тыс. дол. по четным/нечетным или как повезет</caption>
-              <tr class="about__table-tr">
-                <td class="about__table-td">время в пути</td>
-                <td class="about__table-td">расстояние</td>
-                <td class="about__table-td">в невесомости</td>
-                <td class="about__table-td">стоимость</td>
-                <td class="about__table-td">вернешься?</td>
-              </tr>
-              <tr class="about__table-tr">
-                <td aria-label="время в пути" class="about__table-td">
-                  10
-                  <span>мин</span>
-                </td>
-                <td aria-label="расстояние" class="about__table-td">
-                  100
-                  <span>км</span>
-                </td>
-                <td aria-label="в невесомости" class="about__table-td">
-                  4-5
-                  <span>мин</span>
-                </td>
-                <td aria-label="стоимость" class="about__table-td">
-                  250
-                  <span>тыс.дол</span>
-                </td>
-                <td aria-label="вернешься?" class="about__table-td">
-                  99
-                  <span>%</span>
-                </td>
-              </tr>
-             
-            </table>
-            <button class="button">
-              ЗАБРОНИРОВАТЬ ПОЛЕТ
-            </button>
-          </div>
-        </div>
-
-        <div class="about__item">
-          <img src="images/mask.png" alt="" class="about__img">
-          <div class="about__content">
-            <h3 class="about__content-title">SpaceX</h3>
-            <h5 class="about__content-subtitle">А может на Луну или Марс?</h5>
-            <div class="about__content-text">
-              <p>В 2016 году на 67-м ежегодном Международном конгрессе астронавтики Илон Маск заявил, что оптимистичный временной график предусматривает первый полет к Марсу в 2022 году (доставка груза).
-              </p>
-              <p>Полет с экипажем - в 2024 году.
-                На Красную планету экипаж прибудет в 2025-26 году.
-                "Я начал SpaceX, потому что хотел помочь снизить стоимость космических перевозок, чтобы основать жизни на другой планете".
-              </p>
-              <p>Если все пойдет по плану, то благодаря Маск к 2050 году жителями Красной планеты смогут себя назвать около миллиона человек. Туда их доставит флотилия из тысячи кораблей Starship.</p>
-            </div>
-            <table class="about__table">
-              <tr class="about__table-tr">
-                <td class="about__table-td">время в пути</td>
-                <td class="about__table-td">расстояние</td>
-                <td class="about__table-td">в невесомости</td>
-                <td class="about__table-td">стоимость</td>
-                <td class="about__table-td">вернешься?</td>
-              </tr>
-              <tr class="about__table-tr">
-                <td aria-label="время в пути" class="about__table-td">
-                  150
-                  <span>дней</span>
-                </td>
-                <td aria-label="расстояние" class="about__table-td">
-                  55
-                  <span>млн.км</span>
-                </td>
-                <td aria-label="в невесомости" class="about__table-td">
-                  много
-                  <span>мин</span>
-                </td>
-                <td aria-label="стоимость" class="about__table-td">
-                  10
-                  <span>млрд.дол</span>
-                </td>
-                <td aria-label="вернешься?" class="about__table-td">
-                  1
-                  <span>%</span>
-                </td>
-              </tr>
-            </table>
-            <button class="button">
-              ЗАБРОНИРОВАТЬ ПОЛЕТ
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="how-to">
-      <div class="container">
-        <h2 class="title">
-          Как все <br> происходит
-        </h2>
-        <div class="how-to__box">
-          <svg width="850" height="600" viewBox="0 0 850 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="20.2474" y1="19.56552" x2="161.247" y2="95.5655" stroke="white"/>
-            <line x1="161.43" y1="95.7448" x2="215.43" y2="186.745" stroke="white"/>
-            <line x1="215.439" y1="186.76" x2="286.439" y2="316.76" stroke="white"/>
-            <line x1="286.444" y1="317.229" x2="236.444" y2="414.229" stroke="white"/>
-            <line x1="286.207" y1="316.545" x2="545.207" y2="434.545" stroke="white"/>
-            <line x1="236.29" y1="413.593" x2="406.29" y2="534.593" stroke="white"/>
-            <line x1="405.708" y1="534.594" x2="544.708" y2="434.594" stroke="white"/>
-            <g>
-            <circle cx="20" cy="20" r="10" fill="white"/>
-            <text x="40" y="25" fill="white">Выбираете программу</text>
-            </g>
-            <g>
-            <circle cx="161" cy="96" r="10" fill="white"/>
-            <text x="186" y="102" fill="white">Оплачиваете</text>
-            </g>
-            <g>
-            <circle cx="215" cy="187" r="10" fill="white"/>
-            <text x="240" y="193" fill="white">Какая-то будет подготовка</text>
-            </g>
-            <g>
-            <circle cx="286" cy="317" r="10" fill="white"/>
-            <text x="310" y="323" fill="white">Садимся. Летим. Невесомость...</text>
-            </g>
-            <g>
-            <circle cx="236" cy="414" r="10" fill="white"/>
-            <foreignObject x="80" y="414" width="120" height="80">
-              <p>
-                Делаем фото в инстаграм
-              </p>
-            </foreignObject>
-            </g>
-            <g>
-            <circle cx="406" cy="535" r="10" fill="white"/>
-            <foreignObject x="431" y="545" width="154" height="70">
-              <p>
-                Приземляемся, но это не точно
-              </p>
-            </foreignObject>
-            </g>
-            <g>
-            <circle cx="545" cy="435" r="10" fill="white"/>
-            <foreignObject x="570" y="425" width="273" height="100">
-              <p>
-                Едим из тюбиков: 5 видов меню на выбор (веган, спорт, безлактозное, безглютеновое, обычное)
-              </p>
-            </foreignObject>
-          </g>
-            </svg>
-            <ul class="how-to__box-list">
-              <li class="how-to__box-list-item">
-                Выбираете программу
-              </li>
-              <li class="how-to__box-list-item">
-                Оплачиваете
-              </li>
-              <li class="how-to__box-list-item">
-                Какая-то будет подготовка
-              </li>
-              <li class="how-to__box-list-item">
-                Садимся. Летим. Невесомость...
-              </li>
-              <li class="how-to__box-list-item">
-                Делаем фото в инстаграм
-              </li>
-              <li class="how-to__box-list-item">
-                Едим из тюбиков: 5 видов меню на выбор (веган, спорт, безлактозное, безглютеновое, обычное)
-              </li>
-              <li class="how-to__box-list-item">
-                Приземляемся, но это не точно
-              </li>
-            </ul>
-        </div>
-      </div>
-    </section>
-    <section class="to-book">
-      <div class="container">
-        <div class="to-book__inner">
-          <h2 class="title to-book__title">
-            Успей <br> забронировать.
-          </h2>
-          <p class="to-book__text">
-            Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. Компания уже несколько лет продает билеты на такие полеты по 250 тыс долл.
-          </p>
-          <p class="to-book__text">
-            Virgin Galactic получила задатков более чем 80 млн долл, а количество желающих превышает 600 человек.
-          </p>
-        </div>
-      </div>
-    </section>
-   
-    <section class="info">
-    <div class="special-offer">
-      <div class="container">
-        <h2 class="title">
-          Спец <br>
-          предложения
-        </h2>
-        <div class="special-offer__inner">
-          <div class="special-offer__item">
-            <div class="special-offer__item-box">
-              <p class="special-offer__item-text">
-                Забронируй полет 
-                <span>прямо сейчас</span> 
-                и получи скидку 
-                1000$
-              </p>
-              <div class="special-offer__price">
-                <p class="special-offer__old-price">250 000 $</p>
-                <p class="special-offer__new-price">249 000 $</p>
-              </div>
-            </div>
-            <button class="button special-offer__btn">
-              ЗАБРОНИРОВАТЬ ПОЛЕТ
-            </button>
-          </div>
-          <div class="special-offer__item">
-            <div class="special-offer__item-box">
-              <p class="special-offer__item-text">
-                Приведи друга и получи <span>скидку 10%</span>
-                на следующий полет, если вернешься
-              </p>
-              <div class="special-offer__price">
-                <p class="special-offer__old-price">250 000 $</p>
-                <p class="special-offer__new-price">225 000 $</p>
-              </div>
-            </div>
-            <button class="button special-offer__btn">
-              ЗАБРОНИРОВАТЬ ПОЛЕТ
-            </button>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <div class="services">
-      <div class="container">
-      <h2 class="title services__title">
-        Дополнительные <br> услуги
-      </h2>
-      <div class="services__inner">
-        <div class="services__box-list">
-          <p class="services__list-title">
-            С Вами полетит профессиональный фотограф
-          </p>
-          <ul class="services__list">
-            <li class="services__list-item">
-              20 фотографий в профессиональной обработке
-            </li>
-            <li class="services__list-item">
-              фото книга
-              </li>
-            <li class="services__list-item">
-              магнит на холодильник в подарок</li>
-          </ul>
-          <p class="services__description">
-            Стоимость фотосессии в невесомости 100 000 $.  Доплати 50 000 $ и получи все фото в цветокоррекции на диске.
-          </p>
-        </div>
-        <div class="services__buttons">
-          <button class="button services__btn services__btn--first">КУПИТЬ УСЛУГИ ФОТОГРАФА</button>
-          <button class="button services__btn">ХОЧУ И ДИСК</button>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="slider">
-      <div class="container">
-      <div class="slider__inner">
-        <div class="slider__box">
-          <div class="slider__box-item">
-            <img class="slider__box-img" src="images/slider.jpg" alt="">
-          </div>
-          <div class="slider__box-item">
-            <img class="slider__box-img" src="images/slider.jpg" alt="">
-          </div>
-          <div class="slider__box-item">
-            <img class="slider__box-img" src="images/slider.jpg" alt="">
-          </div>
-        </div>
-      </div>
-      <p class="slider__description">
-        Ты знаешь о Космическом законе – представь себе то, что ты хочешь, и оно войдет в твою жизнь.
-      </p>
-    </div>
-    </div>
-  </section>
-   
-  <section class="contacts">
+  <div class="direction">
     <div class="container">
-      <div class="contacts__inner">
-        <div class="contacts__box">
-          <h2 class="title contacts__title">
-            Контакты
-          </h2>
-          <p class="contact_box-text">
-            Оставь свои контакты и мы перезвоним тебе в ближайшие 100 лет!
-          </p>
-          <form class="contacts__form">
-            <input class="contacts__form-input" placeholder="ФИО" type="text">
-            <input class="contacts__form-input" placeholder="Имя ребенка или внука (на всякий случай)" type="text">
-            <input class="contacts__form-input" placeholder="Телефон" type="tel">
-            <button class="button contacts__btn" type="submit">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
-          </form>
+      <div class="direction__inner">
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-1.jpg" alt="" >
+          <p class="description__text">Намибия</p>
         </div>
-        <div class="contacts__guarantees">
-          <h2 class="title contacts__title">
-            Гарантии
-          </h2>
-          <p class="contacts__guarantees-text">
-            Ни одна моя ракета еще не сделала удачную попытку, потому что в ней не было тебя!
-            Будь первым! Колонизируй Марс!
-            Илон Маск
-          </p>
-          <img class="contacts__guarantees-img" src="images/mask-guarantees.png" alt="mask">
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-2.jpg" alt="" >
+          <p class="description__text">Танзания</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-3.jpg" alt="" >
+          <p class="description__text">Кения</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-4.jpg" alt="" >
+          <p class="description__text">Ботсвана</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-5.jpg" alt="" >
+          <p class="description__text">Кейптаун</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-6.jpg" alt="" >
+          <p class="description__text">Мадагаскар</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-7.jpg" alt="" >
+          <p class="description__text">Занзибар</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-8.jpg" alt="" >
+          <p class="description__text">ЮАР</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-9.jpg" alt="" >
+          <p class="description__text">Мозамбик</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-10.jpg" alt="" >
+          <p class="description__text">Замбия</p>
+        </div>
+        <div class="direction__item">
+          <img class="direction__img" src="images/direction-11.jpg" alt="" >
+          <p class="description__text">Конго</p>
         </div>
       </div>
-    </div>
-  </section>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-      <div class="footer__text">
-        <p>Служба поддержки работает межгалактично и суборбитально</p>
-        <p>График приема посетителей строго по записи</p>
-      </div>
-      <ul class="footer__menu">
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">О НАС</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">СТОИМОСТЬ</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">ДОП.УСЛУГИ</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">ГАРАНТИИ</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">НОВОСТИ</a></li>
-      </ul>
-      <ul class="footer__links">
-        <li class="footer__links-item"><a href="#" class="footer__links-link">spacex.com</a></li>
-        <li class="footer__links-item"><a href="#" class="footer__links-link">blueorigin.com</a></li>
-        <li class="footer__links-item"><a href="#" class="footer__links-link">virgingalactic.com</a></li>
-        <li class="footer__links-item"><a href="#" class="footer__links-link href="tel:080000000000">0 800 000 000 00</a></li>
-        <li class="footer__links-item"><a href="#" class="footer__links-link">МКС</a></li>
-      </ul>
-      
     </div>
   </div>
+  <section class="travel-info">
+    <div class="container">
+      <h2 class="travel-info__title title">Основные направления </h2>
+      <div class="travel-info__items">
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-1.svg" alt="">
+          <p class="travel-info__text">
+            Полная организация отдыха: групповые и индивидуальные туры.
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-2.svg" alt="">
+          <p class="travel-info__text">
+            Организация трансфера из любой точки мира
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-3.svg" alt="">
+          <p class="travel-info__text">
+            Проживание в отелях по маршруту
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-4.svg" alt="">
+          <p class="travel-info__text">
+            Аренда автомобилей и любого вида транспорта
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-5.svg" alt="">
+          <p class="travel-info__text">
+            Медицинская страховка
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-6.svg" alt="">
+          <p class="travel-info__text">
+            Сопровождение русскоговорящих гидов
+          </p>
+        </div>
+        <div class="travel-info__item">
+          <img class="travel-info__img" src="images/icon-7.svg" alt="">
+          <p class="travel-info__text">
+            Организация VIP-туров
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="popular">
+    <div class="container">
+      <h2 class="popular__title title">Популярные предложения</h2>
+      <div class="popular__items">
+        <a class="popular__link" href="#" style="background-image: url(images/popular-1.jpg);">
+          <h4 class="popular__link-title">ПУТЕШЕСТВИЕ ПО НАМИБИИ</h4>
+          <p class="popular__price">от 3000 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-2.jpg);">
+          <h4 class="popular__link-title">КЛАССИКА КЕНИИ</h4>
+          <p class="popular__price">от 3500 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-3.jpg);">
+          <h4 class="popular__link-title popular__link-title--big">САМЫЕ ПОПУЛЯРНЫЕ САФАРИ ПАРКИ И ЗАПОВЕДНИКИ ТАНЗАНИИ</h4>
+          <p class="popular__country">Танзания</p>
+          <p class="popular__time">7 дней / 6 ночей</p>
+          <p class="popular__price">от 1700 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-4.jpg);">
+          <h4 class="popular__link-title">ИССЛЕДОВАНИЕ БОТСВАНЫ</h4>
+          <p class="popular__price">от 2500 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-5.jpg);">
+          <h4 class="popular__link-title">ПУТЕШЕСТВИЕ ЧЕРЕЗ 5 СТРАН ЮЖНОЙ АФРИКИ</h4>
+          <p class="popular__price">от 5000 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-6.jpg);">
+          <h4 class="popular__link-title popular__link-title--big">ГРАНДИОЗНОЕ ПРИКЛЮЧЕНИЕ ПО 9 СТРАНАМ АФРИКИ</h4>
+          <p class="popular__country">ЮАР, Замбия, Намибия, Зимбабве, Ботсвана, Мозамбик, Танзания, Кения</p>
+          <p class="popular__time">24 дня / 23 ночи</p>
+          <p class="popular__price">от 6000 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-7.jpg);">
+          <h4 class="popular__link-title">ВЕЛИКОЛЕПНЫЙ КЕЙПТАУН</h4>
+          <p class="popular__price">от 3500 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-8.jpg);">
+          <h4 class="popular__link-title">ПУТЕШЕСТВИЕ ПО ЮАР: </h4>
+          <p class="popular__price">от 2500 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-9.jpg);">
+          <h4 class="popular__link-title">ВЕЛИКАЯ МИГРАЦИЯ В ТАНЗАНИИ И ОТДЫХ НА ЗАНЗИБАРЕ</h4>
+          <p class="popular__price">от 1700 $</p>
+        </a>
+        <a class="popular__link" href="#" style="background-image: url(images/popular-10.jpg);">
+          <h4 class="popular__link-title">ОТ КЕЙПТАУНА ДО ВОДОПАДА ВИКТОРИЯ</h4>
+          <p class="popular__price">от 2500 $</p>
+        </a>
+      </div>
+    </div> 
+  </section>
+  <section class="map">
+    <div class="container">
+      <h2 class="title map__title">
+        Карта африки
+      </h2>
+      <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19362031.22807656!2d16.963093889495404!3d4.945226609445599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10a06c0a948cf5d5%3A0x108270c99e90f0b3!2z0JDRhNGA0LjQutCw!5e0!3m2!1sru!2sru!4v1634821679323!5m2!1sru!2sru" 
+      width="100%" height="610" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__content">
+          <h2 class="about__title title">О сафари турах</h2>
+          <p class="about__text">Восточная и Южная Африка являются самыми популярными местами, где можно насладиться увлекательным путешествием, под названием сафари. Именно здесь созданы все условия, чтобы туристы могли почувствовать себя частичкой девственной природы Африки. Туры сафари в Африку характеризуются уникальными программами, в рамках которых туристы перемещаются на комфортабельных, специализированных автомобилях или автобусах.</p>
+          <a class="about__link" href="#">Читать подробней</a>
+        </div>
+        <div class="about__popup">
+          <a class="popup__link" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+            <img class="about__link-img" src="images/popup.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery__top">
+        <h2 class="title gallery__title">Фотогалерея</h2>
+        <a class="gallery__link"  href="#">Перейти в раздел</a>
+      </div>
+      <div class="gallery__slider">
+        <div class="gallery__item">
+          <div class="gallery__item-inner">
+            <a href="images/gallery-1.jpg" class="gallery__item-link"><img src="images/gallery-1.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-2.jpg" class="gallery__item-link"><img src="images/gallery-2.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-3.jpg" class="gallery__item-link"><img src="images/gallery-3.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-4.jpg" class="gallery__item-link"><img src="images/gallery-4.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-5.jpg" class="gallery__item-link"><img src="images/gallery-5.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-6.jpg" class="gallery__item-link"><img src="images/gallery-6.jpg" alt="" class="gallery__item-img"></a>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__item-inner">
+            <a href="images/gallery-1.jpg" class="gallery__item-link"><img src="images/gallery-1.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-2.jpg" class="gallery__item-link"><img src="images/gallery-2.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-3.jpg" class="gallery__item-link"><img src="images/gallery-3.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-4.jpg" class="gallery__item-link"><img src="images/gallery-4.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-5.jpg" class="gallery__item-link"><img src="images/gallery-5.jpg" alt="" class="gallery__item-img"></a>
+            <a href="images/gallery-6.jpg" class="gallery__item-link"><img src="images/gallery-6.jpg" alt="" class="gallery__item-img"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="tour">
+    <div class="container">
+      <h2 class="tour__title title">
+        Сафари тур премиум класса
+      </h2>
+      <div class="tour__box">   
+        <p class="tour__text">Сафари тур ?
+           это уникальное путешествие в мир дикой природы, знакомство с многогранной Африкой,
+            наблюдение за дикими животными в их привычной среде обитания.</p>
+        <p class="tour__text"><span>САФАРИ ТУРИСТИК</span> специализируется на элитном туризме и представляет своим клиентам уникальные программы сафари туров.
+          Среди представленных вариантов можно найти нечто неповторимое, по вашему вкусу.</p>
+        <p class="tour__text"> Если вы желаете отправиться в самое незабываемое путешествие в вашей жизни, побывать в уникальных местах и увидеть то,
+           что удается лицезреть немногим ? тогда сафари туры созданы для вас.</p>
+        <p class="tour__text">Сафари туры выбирают туристы, которые предпочитают динамичный, яркий, насыщенный эмоциями и впечатлениями отдых.   
+          Программы сафари туров по Африке рассчитаны на определенную группу людей, которые под покровительством куратора, 
+          осуществляют увлекательное путешествие по заранее спланированному маршруту. Мы ориентированы на клиентов VIP класса,
+           поэтому все предложения, представленные в нашей коллекции, отличаются высшим классом, детально продуманной программой,
+            первоклассным сервисом и индивидуальным подходом к каждому участнику путешествия. У нас на сайте вы можете прочитать 
+            все подробности о программах уже сформированных туров по сафари.</p>
+      </div>
+      <div class="tour__info">
+        <div class="tour__info-item">
+          16
+          <p class="tour__info-text">
+            лет успешной
+            работы
+          </p>
+        </div>
+        <div class="tour__info-item">
+          50
+          <p class="tour__info-text">
+            гостиниц без
+            посредников
+          </p>
+        </div>
+        <div class="tour__info-item">
+          25+
+          <p class="tour__info-text">
+            собственных
+            туров
+          </p>
+        </div>
+        <div class="tour__info-item">
+         <p class="info__info-item-fix">1 220 000</p>
+          <p class="tour__info-text">
+            кв. км – площадь наших
+            путешествий
+          </p>
+        </div>
+        <div class="tour__info-item">
+          5000
+          <p class="tour__info-text">
+            довольных туристов
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="booking">
+    <div class="container">
+      <h2 class="booking__title title">
+        Забронируйте отдых в Африке
+      </h2>
+      <form class="booking__form">
+        <input class="booking__input" placeholder="Ваше имя" type="text">
+        <input class="booking__input" placeholder="Телефон" type="text">
+        <input class="booking__input" placeholder="E-mail" type="text">
+        <textarea class="booking__area" placeholder="Комментарий"></textarea>
+        <button class="booking__btn" type="submit" >Отправить заявку</button>
+        <label class="booking__label"><input class="booking__checkbox" type="checkbox">
+          <span class="booking__checkbox-style"></span>
+          Согласие на обработку персональных данных
+        </label>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <a  class="logo" href="#">
+          <img class="logo_img" src="images/logo.svg" alt="">
+        </a> 
+      </div>
+      <div class="footer__box">
+        <div class="footer__info">
+          <p class="footer__box-title">Турагентство «Сафари Туристик»</p>
+          <p class="footer__copy">© 2021. Все права защищены</p>
+          <a class="footer__link" href="#">Политика конфиденциальности</a>
+        </div>
+        <div class="footer__adress">
+          <p class="footer__box-title">Адрес:</p>
+          <p class="footer__address-text">г. Киев, ул.Мира, 20,
+            отель «Динамо», 1 этаж</p>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__box-title">Заказ туров и бронирование:</p>
+          <a class="footer__phone" href="tel:80508543543">тел. 8-050-8-543-543</a>
+          <a class="footer__mail" href="mailto:safari_turistic@gmail.com">e-mail: safari_turistic@gmail.com</a>
+        </div>
+      </div>
+    </div>
   </footer> 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
